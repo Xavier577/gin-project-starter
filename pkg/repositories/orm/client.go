@@ -1,7 +1,7 @@
 package orm
 
 import (
-	"gin-project-starter/database"
+	"gin-project-starter/pkg/database"
 	"log"
 
 	"gorm.io/gorm"
