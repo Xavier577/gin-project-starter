@@ -1,6 +1,6 @@
 # Using this Template
 
-To scaffold your project using this template.Click the use template button to create a new repo based on this template or run:
+To scaffold your project using this template.Click the use template button to create a new repo based on this template or if you have nodeJs and npm installed,run:
 
 ```
 npx degit https://github.com/Xavier577/gin-project-starter.git <your-project-directory>
