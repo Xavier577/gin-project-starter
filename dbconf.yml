@@ -1,0 +1,21 @@
+test:
+  driver: postgres
+  open: user=liam dbname=tester sslmode=disable
+
+development:
+  driver: postgres
+  open: user=tsegen dbname=dbuser sslmode=disable
+
+production:
+  driver: postgres
+  open: user=tsegen dbname=dbuser sslmode=verify-full
+
+#customimport:
+#  driver: postgres
+#  open: postgres open
+#  import: gorm.io/driver/postgres
+#  dialect: postgres
+
+environment_variable_config:
+  driver: postgres
+  open: $DATABASE_URL
